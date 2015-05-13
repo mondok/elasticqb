@@ -8,9 +8,11 @@
 
 import Cocoa
 
-class ViewController: NSViewController {
+class ElasticQBViewController: NSViewController {
 
+    @IBOutlet weak var _url: NSTextField!
     override func viewDidLoad() {
+        self.title = "ElasticQB"
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.

@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9D78DAAD1B02EEE400571925 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D78DAAC1B02EEE400571925 /* AppDelegate.swift */; };
-		9D78DAAF1B02EEE400571925 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D78DAAE1B02EEE400571925 /* ViewController.swift */; };
+		9D78DAAF1B02EEE400571925 /* ElasticQBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D78DAAE1B02EEE400571925 /* ElasticQBViewController.swift */; };
 		9D78DAB11B02EEE400571925 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D78DAB01B02EEE400571925 /* Images.xcassets */; };
 		9D78DAB41B02EEE400571925 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D78DAB21B02EEE400571925 /* Main.storyboard */; };
 		9D78DAC01B02EEE400571925 /* ElasticQBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D78DABF1B02EEE400571925 /* ElasticQBTests.swift */; };
@@ -28,7 +28,7 @@
 		9D78DAA71B02EEE400571925 /* ElasticQB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ElasticQB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D78DAAB1B02EEE400571925 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9D78DAAC1B02EEE400571925 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9D78DAAE1B02EEE400571925 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9D78DAAE1B02EEE400571925 /* ElasticQBViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElasticQBViewController.swift; sourceTree = "<group>"; };
 		9D78DAB01B02EEE400571925 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9D78DAB31B02EEE400571925 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9D78DAB91B02EEE400571925 /* ElasticQBTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElasticQBTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -76,7 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				9D78DAAC1B02EEE400571925 /* AppDelegate.swift */,
-				9D78DAAE1B02EEE400571925 /* ViewController.swift */,
+				9D78DAAE1B02EEE400571925 /* ElasticQBViewController.swift */,
 				9D78DAB01B02EEE400571925 /* Images.xcassets */,
 				9D78DAB21B02EEE400571925 /* Main.storyboard */,
 				9D78DAAA1B02EEE400571925 /* Supporting Files */,
@@ -208,7 +208,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D78DAAF1B02EEE400571925 /* ViewController.swift in Sources */,
+				9D78DAAF1B02EEE400571925 /* ElasticQBViewController.swift in Sources */,
 				9D78DAAD1B02EEE400571925 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
