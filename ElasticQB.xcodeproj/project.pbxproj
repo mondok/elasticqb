@@ -12,6 +12,14 @@
 		9D78DAB11B02EEE400571925 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D78DAB01B02EEE400571925 /* Images.xcassets */; };
 		9D78DAB41B02EEE400571925 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D78DAB21B02EEE400571925 /* Main.storyboard */; };
 		9D78DAC01B02EEE400571925 /* ElasticQBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D78DABF1B02EEE400571925 /* ElasticQBTests.swift */; };
+		9DE48D331B17FF5700FBFACD /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE48D2A1B17FF5700FBFACD /* Alamofire.swift */; };
+		9DE48D341B17FF5700FBFACD /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE48D2B1B17FF5700FBFACD /* Download.swift */; };
+		9DE48D361B17FF5700FBFACD /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE48D2D1B17FF5700FBFACD /* Manager.swift */; };
+		9DE48D371B17FF5700FBFACD /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE48D2E1B17FF5700FBFACD /* ParameterEncoding.swift */; };
+		9DE48D381B17FF5700FBFACD /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE48D2F1B17FF5700FBFACD /* Request.swift */; };
+		9DE48D391B17FF5700FBFACD /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE48D301B17FF5700FBFACD /* ResponseSerialization.swift */; };
+		9DE48D3A1B17FF5700FBFACD /* Upload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE48D311B17FF5700FBFACD /* Upload.swift */; };
+		9DE48D3B1B17FF5700FBFACD /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE48D321B17FF5700FBFACD /* Validation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +42,14 @@
 		9D78DAB91B02EEE400571925 /* ElasticQBTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElasticQBTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D78DABE1B02EEE400571925 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9D78DABF1B02EEE400571925 /* ElasticQBTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElasticQBTests.swift; sourceTree = "<group>"; };
+		9DE48D2A1B17FF5700FBFACD /* Alamofire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = ThirdParty/AlamoFire/Alamofire.swift; sourceTree = "<group>"; };
+		9DE48D2B1B17FF5700FBFACD /* Download.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Download.swift; path = ThirdParty/AlamoFire/Download.swift; sourceTree = "<group>"; };
+		9DE48D2D1B17FF5700FBFACD /* Manager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Manager.swift; path = ThirdParty/AlamoFire/Manager.swift; sourceTree = "<group>"; };
+		9DE48D2E1B17FF5700FBFACD /* ParameterEncoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = ThirdParty/AlamoFire/ParameterEncoding.swift; sourceTree = "<group>"; };
+		9DE48D2F1B17FF5700FBFACD /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Request.swift; path = ThirdParty/AlamoFire/Request.swift; sourceTree = "<group>"; };
+		9DE48D301B17FF5700FBFACD /* ResponseSerialization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = ThirdParty/AlamoFire/ResponseSerialization.swift; sourceTree = "<group>"; };
+		9DE48D311B17FF5700FBFACD /* Upload.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Upload.swift; path = ThirdParty/AlamoFire/Upload.swift; sourceTree = "<group>"; };
+		9DE48D321B17FF5700FBFACD /* Validation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = ThirdParty/AlamoFire/Validation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +91,8 @@
 		9D78DAA91B02EEE400571925 /* ElasticQB */ = {
 			isa = PBXGroup;
 			children = (
+				9DE48D271B17FF3F00FBFACD /* ThirdParty */,
+				9DE48D261B17FBD500FBFACD /* Models */,
 				9D78DAAC1B02EEE400571925 /* AppDelegate.swift */,
 				9D78DAAE1B02EEE400571925 /* ElasticQBViewController.swift */,
 				9D78DAB01B02EEE400571925 /* Images.xcassets */,
@@ -107,6 +125,36 @@
 				9D78DABE1B02EEE400571925 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9DE48D261B17FBD500FBFACD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		9DE48D271B17FF3F00FBFACD /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				9DE48D281B17FF4600FBFACD /* AlamoFire */,
+			);
+			name = ThirdParty;
+			sourceTree = "<group>";
+		};
+		9DE48D281B17FF4600FBFACD /* AlamoFire */ = {
+			isa = PBXGroup;
+			children = (
+				9DE48D2A1B17FF5700FBFACD /* Alamofire.swift */,
+				9DE48D2B1B17FF5700FBFACD /* Download.swift */,
+				9DE48D2D1B17FF5700FBFACD /* Manager.swift */,
+				9DE48D2E1B17FF5700FBFACD /* ParameterEncoding.swift */,
+				9DE48D2F1B17FF5700FBFACD /* Request.swift */,
+				9DE48D301B17FF5700FBFACD /* ResponseSerialization.swift */,
+				9DE48D311B17FF5700FBFACD /* Upload.swift */,
+				9DE48D321B17FF5700FBFACD /* Validation.swift */,
+			);
+			name = AlamoFire;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,8 +256,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DE48D3A1B17FF5700FBFACD /* Upload.swift in Sources */,
+				9DE48D371B17FF5700FBFACD /* ParameterEncoding.swift in Sources */,
+				9DE48D331B17FF5700FBFACD /* Alamofire.swift in Sources */,
+				9DE48D341B17FF5700FBFACD /* Download.swift in Sources */,
+				9DE48D391B17FF5700FBFACD /* ResponseSerialization.swift in Sources */,
 				9D78DAAF1B02EEE400571925 /* ElasticQBViewController.swift in Sources */,
+				9DE48D381B17FF5700FBFACD /* Request.swift in Sources */,
 				9D78DAAD1B02EEE400571925 /* AppDelegate.swift in Sources */,
+				9DE48D3B1B17FF5700FBFACD /* Validation.swift in Sources */,
+				9DE48D361B17FF5700FBFACD /* Manager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,6 +456,7 @@
 				9D78DAC51B02EEE400571925 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9D78DAC61B02EEE400571925 /* Build configuration list for PBXNativeTarget "ElasticQBTests" */ = {
 			isa = XCConfigurationList;
@@ -408,6 +465,7 @@
 				9D78DAC81B02EEE400571925 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
